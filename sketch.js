@@ -1,4 +1,3 @@
-let size = map(level, 0, 1, 0, 200);
 
 function preload(){
   sound = loadSound('assets/beat.mp3');
@@ -33,20 +32,6 @@ function toggleSound(){
   } else {
     sound.play();
   }
-}
-
-function mouseClicked() {
-
-    for(let j = 0; j < height; j += 30){
-      ellipse(i, j, 60, 120);
-  
-}
-// function mode1() {
-//   for(let i = 0; i < width; i += 10  ) {
-//     for(let j = 0; j < height; j += 50){
-//      ellipse(i, j, size, size);
-//     }
-//   }
 }
 
 
